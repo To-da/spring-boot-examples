@@ -1,15 +1,15 @@
 Autoconfig example
 ==================
 
-# What is Autoconfiguration
+## What is Autoconfiguration
 Autoconfiguration is a feature of the [Spring Boot](http://projects.spring.io/spring-boot/ "Spring Boot project")
 which can provide developers convention-over-configuration principle on the bean-registering and configuration level.
 
-# Why Autoconfiguration
+## Why Autoconfiguration
 What does it mean? If you create shared library which needs registration and configuration of Spring beans you have
 to explicitly provide this information to other developers (to tell them how to manually register beans or where to set up component scanning (right package of the library)).
 
-# Spring Boot can help
+## Spring Boot can help
 With Spring Boot you can easily add auto-config dependency to the other team project and let the Spring Boot to handle the other (register
 been, retrieve default properties, etc.). All you need is to add
 [@EnableAutoConfig](http://docs.spring.io/autorepo/docs/spring-boot/1.2.0.RC2/api/org/springframework/boot/autoconfigure/EnableAutoConfiguration.html)
@@ -25,5 +25,5 @@ More description how to create own auto-configuration :
 [Spring Boot autoconfig reference](http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#boot-features-developing-auto-configuration)
 
 
-# Video
+## Video
 Related [youtube video](http://youtu.be/fEuXdeJPY7U)
