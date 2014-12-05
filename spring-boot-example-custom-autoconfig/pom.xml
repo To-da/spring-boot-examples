@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-examples-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>spring-boot-autoconfig-example-parent</artifactId>
+    <packaging>pom</packaging>
+
+    <name>Custom Spring Boot Autoconfig parent</name>
+    <description>Example if Spring Boot custom autoconfig.</description>
+
+    <modules>
+        <module>spring-boot-example-autoconfig-poi</module>
+        <module>spring-boot-example-autoconfig-poi-app</module>
+    </modules>
+
+</project>

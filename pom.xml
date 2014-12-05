@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+      <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.2.0.RC2</version>
+    </parent>
+
+    <artifactId>spring-boot-examples-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <spring-boot.version>1.2.0.RC2</spring-boot.version>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <modules>
+        <module>spring-boot-example-custom-autoconfig</module>
+        <module>spring-boot-example-clirunner</module>
+    </modules>
+
+</project>
